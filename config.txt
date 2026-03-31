@@ -1,0 +1,48 @@
+﻿
+username                                "MSTN CNR | Script Library-00"
+kind                                    "library"
+trainz-build                            5
+script                                  "cnr_state.gs"
+class                                   "CNR_ScriptLibrary"
+always-load-in-global-context           0
+category-class                          "YR"
+category-era                            "2020s"
+category-region                         "TH"
+author                                  "NightNyZ15"
+
+extensions
+{
+  mstn-script
+  {
+    auth-trainz-user                    "TrainzMSTN"
+    auth-id                             "MSTN-CNR-00"
+    auth-name                           "MSTN Production Team"
+    auth-email                          "mstnprod@gmail.com"
+    auth-date                           "2026-03-16"
+  }
+}
+
+script-include-table
+{
+  auth_lib                              <kuid:1144998:100234>
+}
+
+thumbnails
+{
+  0
+  {
+    width                               1280
+    height                              1024
+    image                               "index.png"
+  }
+}
+
+kuid-table
+{
+  auth_lib                              <kuid:1144998:100234>
+  null-engine                           <kuid:-25:434>
+  enginespec_parked                     <kuid:1144998:100219>
+  enginespec_emg                        <kuid:1144998:100224>
+  enginespec_wheellock                  <kuid:1144998:100225>
+}
+kuid                                    <kuid:1144998:100064>
